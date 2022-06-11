@@ -1,0 +1,38 @@
+:root {
+	// colors
+	--clr-primary-400: hsl(234, 25%, 52%);
+	--clr-primary-700: hsl(233, 54%, 16%);
+
+	--clr-accent-700: hsl(341, 100%, 83%);
+	--clr-accent-700: hsl(341, 92%, 62%);
+
+	--clr-neutral-700: hsl(232, 10%, 56%);
+
+	--clr-white: #ffffff;
+
+	--clr-gradient-400: linear-gradient(hsl(237, 100%, 64%) 0%, hsl(322, 87%, 55%) 100%);
+	--clr-gradient-700: linear-gradient(hsl(322, 87%, 55%) 0%, hsl(13, 100%, 64%) 100%);
+
+	// font sizes
+	--fz-regular-s: 1.6rem;
+	--fz-regular-m: 1.8rem;
+	--fz-medium-s: 2.4rem;
+	--fz-medium-m: 3.2rem;
+	--fz-large: 4rem;
+	--fz-large-xl: 5.6rem;
+
+	// stage
+	--body: var(--clr-primary-400);
+
+	--heading: var(--clr-primary-700);
+
+	--bg-courses: linear-gradient(hsl(0, 0%, 100%) 0%, hsl(236, 100%, 97%) 100%);
+	--bg-courses-header: var(--clr-gradient-700);
+	--bg-course-icon: var(--clr-gradient-700);
+	--course-link: var(--clr-primary-700);
+
+	--button: var(--clr-white);
+	// bg button will be specified in btn component
+
+	--bg-footer: var(--clr-primary-700);
+}
