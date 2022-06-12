@@ -2,58 +2,101 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./dist/assets/icons/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./dist/css/main.min.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="./dist/assets/icons/favicon-32x32.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./dist/css/main.min.css">
 
-  <title>Frontend Mentor | Skilled e-learning landing page</title>
+	<title>Frontend Mentor | Skilled e-learning landing page</title>
 </head>
 
 <body>
 
-  <!-- Get Started
+	<nav class="flex">
+		<img src="./dist/assets/logo-dark.svg" alt="Skilled logo.">
+		<a class="link link--btn link--dark">Get Started</a>
+	</nav>
+	<header class="header" aria-labelledby="main-heading">
+		<article class="header__content">
+			<h1 id="main-heading" class="heading header__heading">Maximize skill, minimize budget</h1>
+			<p class="text header__text">Our modern courses across a range of in-demand skills will give you the
+				knowledge you need to live the life you want.</p>
+			<a class="link link--btn link--primary">Get Started</a>
+		</article>
+		<picture>
+			<source media="(min-width: 1400px)" srcset="./dist/assets/desktop/image-hero-desktop@2x.webp">
+			<source media="(min-width: 1200px)" srcset="./dist/assets/desktop/image-hero-desktop.webp">
+			<source media="(min-width: 992px)" srcset="./dist/assets/tablet/image-hero-tablet@2x.webp">
+			<source media="(min-width: 768px)" srcset="./dist/assets/tablet/image-hero-tablet.webp">
+			<source media="(min-width: 576px)" srcset="./dist/assets/mobile/image-hero-mobile@2x.webp">
+			<img src="./dist/assets/mobile/image-hero-mobile.webp"
+				alt="Woman drinking coffee, looking at laptop screen." class="header__image">
+		</picture>
+	</header>
 
-  Maximize skill, minimize budget
+	<main>
+		<section class="courses" aria-labelledby="courses-heading">
+			<div class="container">
+				<div class="grid">
+					<header class="courses__header">
+						<h2 id="courses-heading" class="heading courses__heading">Check out our most
+							popular courses!</h2>
+					</header>
+					<article class="card" aria-labelledby="animation-heading">
+						<img src="./dist/assets/icons/icon-animation.svg" alt="" class="card__icon">
+						<h3 id="animation-heading" class="heading card__heading">Animation</h3>
+						<p class="text card__text">Learn the latest animation techniques to create stunning motion
+							design and captivate your audience.</p>
+						<a href="#" class="link card__link">Get Started</a>
+					</article>
+					<article class="card" aria-labelledby="design-heading">
+						<img src="./dist/assets/icons/icon-design.svg" alt="" class="card__icon">
+						<h3 id="design-heading" class="heading card__heading">Design</h3>
+						<p class="text card__text">Create beautiful, usable interfaces to help shape the future of
+							how the web looks.</p>
+						<a href="#" class="link card__link">Get Started</a>
+					</article>
+					<article class="card" aria-labelledby="photography-heading">
+						<img src="./dist/assets/icons/icon-photography.svg" alt="" class="card__icon">
+						<h3 id="photography-heading" class="heading card__heading">Photography</h3>
+						<p class="text card__text">Explore critical fundamentals like lighting, composition, and focus
+							to capture exceptional photos.</p>
+						<a href="#" class="link card__link">Get Started</a>
+					</article>
+					<article class="card" aria-labelledby="crypto-heading">
+						<img src="./dist/assets/icons/icon-crypto.svg" alt="" class="card__icon">
+						<h3 id="crypto-heading" class="heading card__heading">Crypto</h3>
+						<p class="text card__text">All you need to know to get started investing in crypto. Go from
+							beginner
+							to advanced with this 54 hour course.</p>
+						<a href="#" class="link card__link">Get Started</a>
+					</article>
+					<article class="card" aria-labelledby="business-heading">
+						<img src="./dist/assets/icons/icon-business.svg" alt="" class="card__icon">
+						<h3 id="business-heading" class="heading card__heading">Business</h3>
+						<p class="text card__text">A step-by-step playbook to help you start, scale, and sustain your
+							business
+							without outside investment.</p>
+						<a href="#" class="link card__link">Get Started</a>
+					</article>
+				</div>
+			</div>
+		</section>
+	</main>
 
-  Our modern courses across a range of in-demand skills will give you the 
-  knowledge you need to live the life you want.
-
-  Get Started
-
-  Check out our most popular courses!
-
-  Animation
-  Learn the latest animation techniques to create stunning motion 
-  design and captivate your audience.
-  Get Started
-
-  Design
-  Create beautiful, usable interfaces to help shape the future of 
-  how the web looks.
-  Get Started
-
-  Photography
-  Explore critical fundamentals like lighting, composition, and focus 
-  to capture exceptional photos.
-  Get Started
-
-  Crypto
-  All you need to know to get started investing in crypto. Go from beginner 
-  to advanced with this 54 hour course.
-  Get Started
-
-  Business
-  A step-by-step playbook to help you start, scale, and sustain your business 
-  without outside investment.
-  Get Started
-
-  Get Started -->
+	<footer class="footer">
+		<div class="container">
+			<div class="flex">
+				<img src="./dist/assets/logo-light.svg" alt="Skilled logo.">
+				<a href="#" class="link link--btn link--secondary">Get Started</a>
+			</div>
+		</div>
+	</footer>
 
 </body>
 
