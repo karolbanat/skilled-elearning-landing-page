@@ -20,6 +20,7 @@
 
 		@media (min-width: $bp-large) {
 			padding: 1.6rem;
+			width: 16.5rem;
 			transition: opacity 0.4s ease-in-out;
 
 			&:hover {
@@ -33,7 +34,7 @@
 	}
 
 	&--primary {
-		padding: 1.8rem ;
+		padding: 1.8rem;
 		width: 16.5rem;
 		background-image: var(--clr-gradient-700);
 	}
