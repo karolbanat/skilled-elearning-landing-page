@@ -10,8 +10,8 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution Page](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages Site](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/skilled-elearning-landing-page-Epj3756pU5)
+- Live Site URL: [GitHub Pages Site](https://karolbanat.github.io/skilled-elearning-landing-page/)
 
 ## Author
 
