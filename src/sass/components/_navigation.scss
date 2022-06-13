@@ -1,0 +1,7 @@
+.navigation {
+	padding-block: 1.6rem;
+
+	@media (min-width: $bp-medium) {
+		padding-block: 2.4rem;
+	}
+}

@@ -1,0 +1,14 @@
+.grid {
+	display: grid;
+	row-gap: 4rem;
+
+	@media (min-width: $bp-medium) {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 5.6rem 1rem;
+	}
+
+	@media (min-width: $bp-large-xl) {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 8rem 3rem;
+	}
+}

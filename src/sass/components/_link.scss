@@ -1,0 +1,53 @@
+.link {
+	font-size: var(--fz-regular);
+	text-decoration: none;
+	color: var(--link);
+
+	@media (min-width: $bp-large) {
+		--fz-regular: 1.8rem;
+	}
+
+	&--btn {
+		display: inline-block;
+		padding: 1.4rem;
+		width: 14rem;
+
+		text-align: center;
+
+		background-color: var(--bg-link);
+		border-radius: 50em;
+
+		@media (min-width: $bp-large) {
+			padding: 1.6rem;
+			transition: opacity 0.4s ease-in-out;
+
+			&:hover {
+				opacity: 0.5;
+			}
+		}
+	}
+
+	&--dark {
+		--bg-link: var(--clr-primary-700);
+	}
+
+	&--primary {
+		background-image: var(--clr-gradient-700);
+	}
+
+	&--secondary {
+		background-image: var(--clr-gradient-400);
+	}
+
+	&--link {
+		--link: var(--clr-accent-700);
+
+		@media (min-width: $bp-large) {
+			transition: color 0.4s ease-in-out;
+
+			&:hover {
+				--link: var(--clr-accent-400);
+			}
+		}
+	}
+}

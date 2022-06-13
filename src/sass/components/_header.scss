@@ -1,0 +1,66 @@
+.header {
+	overflow: hidden;
+	&__body {
+		@media (min-width: $bp-medium) {
+			display: grid;
+			grid-template-columns: 6fr 6fr;
+			padding-right: 0;
+		}
+
+		@media (min-width: $bp-large) {
+			grid-template-columns: 5fr 7fr;
+		}
+	}
+
+	&__content {
+		padding-block: 2rem;
+		max-width: 60ch;
+
+		@media (min-width: $bp-medium) {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
+
+	&__heading {
+		margin-bottom: 2rem;
+		font-size: var(--fz-large);
+
+		@media (min-width: $bp-large-xl) {
+			--fz-large: 5.6rem;
+
+			margin-bottom: 2.4rem;
+		}
+	}
+
+	&__text {
+		margin-bottom: 3rem;
+		max-width: 36ch;
+
+		font-size: var(--fz-regular);
+
+		@media (min-width: $bp-large) {
+			--fz-regular: 1.8rem;
+
+			margin-bottom: 4.5rem;
+		}
+	}
+
+	&__image {
+		@media (max-width: $bp-medium) {
+			margin-inline: auto;
+		}
+
+		@media (min-width: $bp-medium) {
+			position: relative;
+			z-index: -100;
+			max-width: 150%;
+			margin-top: -12.5rem;
+		}
+
+		@media (min-width: $bp-large-xl) {
+			margin-top: -25rem;
+		}
+	}
+}

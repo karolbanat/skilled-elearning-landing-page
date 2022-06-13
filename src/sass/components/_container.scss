@@ -1,0 +1,17 @@
+.container {
+	padding-inline: 1.6rem;
+	margin-inline: auto;
+	max-width: 90em;
+
+	@media (min-width: $bp-medium) {
+		padding-inline: 4rem;
+	}
+
+	@media (min-width: $bp-large) {
+		padding-inline: 8rem;
+	}
+
+	@media (min-width: $bp-large-xl) {
+		padding-inline: 16.5rem;
+	}
+}

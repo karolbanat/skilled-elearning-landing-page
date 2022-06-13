@@ -1,0 +1,8 @@
+.footer {
+	padding-block: 3.6rem;
+	background-color: var(--bg-footer);
+
+	@media (min-width: $bp-large) {
+		padding-block: 3.2rem;
+	}
+}

@@ -1,0 +1,33 @@
+.courses {
+	padding-bottom: 8rem;
+	background-image: var(--bg-courses);
+
+	@media (min-width: $bp-medium) {
+		padding-bottom: 8.6rem;
+	}
+
+	@media (min-width: $bp-large) {
+		padding-bottom: 14rem;
+	}
+
+	@media (min-width: $bp-large-xl) {
+		padding-top: 4.5rem;
+	}
+
+	&__header {
+		padding: 2.4rem 3.2rem;
+
+		color: var(--courses-heading);
+		background-image: var(--bg-courses-header);
+		border-radius: 1rem;
+
+		@media (min-width: $bp-medium) {
+			padding-top: 5.6rem;
+		}
+
+		@media (min-width: $bp-large) {
+			padding-top: 6.4rem;
+			border-radius: 1.5rem;
+		}
+	}
+}
