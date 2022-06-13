@@ -1,5 +1,6 @@
 .link {
 	font-size: var(--fz-regular);
+	font-weight: 700;
 	text-decoration: none;
 	color: var(--link);
 
@@ -32,6 +33,8 @@
 	}
 
 	&--primary {
+		padding: 1.8rem ;
+		width: 16.5rem;
 		background-image: var(--clr-gradient-700);
 	}
 

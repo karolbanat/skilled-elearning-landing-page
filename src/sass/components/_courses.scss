@@ -16,8 +16,6 @@
 
 	&__header {
 		padding: 2.4rem 3.2rem;
-
-		color: var(--courses-heading);
 		background-image: var(--bg-courses-header);
 		border-radius: 1rem;
 
@@ -29,5 +27,9 @@
 			padding-top: 6.4rem;
 			border-radius: 1.5rem;
 		}
+	}
+
+	&__heading {
+		--heading: var(--clr-white);
 	}
 }
