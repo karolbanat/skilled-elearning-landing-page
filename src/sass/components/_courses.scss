@@ -31,5 +31,11 @@
 
 	&__heading {
 		--heading: var(--clr-white);
+
+		font-size: var(--fz-medium-m);
+
+		@media (min-width: $bp-large) {
+			--fz-medium-m: 3.2rem;
+		}
 	}
 }
